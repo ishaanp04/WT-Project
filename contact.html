@@ -34,15 +34,9 @@
       </section>
       <section class="nav-right">
         <ul class="nav-list">
-          <li>
-            <a href="#" onclick="home()" class="txt-deco-none"> Home </a>
-          </li>
-          <li>
-            <a href="#" onclick="knowMe()" class="txt-deco-none"> My Work </a>
-          </li>
-          <li>
-            <a href="/contact.html" target="_blank" class="txt-deco-none"> Contact </a>
-          </li>
+          <!-- <li>
+            <a href="/index.html" class="txt-deco-none"> Home </a>
+          </li> -->
           <li>
             <div class="dropdown">
               <div class="dropbtn">Socials</div>
@@ -68,10 +62,30 @@
     </nav>
     <section id="second-section" class="second-section">
       <div id="main-content">
-        <img src="images/looking right.JPG" class="main-image" alt="" />
-      </div>
-      <div class="intro">
-        I am Ishaan Pandey and I am <span id="typing"></span>
+        <form name="contactForm" onsubmit="return validateForm()" method="post">
+          <label for="name">Name:&nbsp;</label>
+          <input type="text" class="input-fields" id="name" name="name" />&nbsp;&nbsp;<span
+            id="name-error"
+            class="form-error"
+          ></span
+          ><br /><br />
+
+          <label for="email">Email:&nbsp;</label>
+          <input type="email" class="input-fields" id="email" name="email" />&nbsp;&nbsp;<span
+            id="email-error"
+            class="form-error"
+          ></span
+          ><br /><br />
+
+          <label for="Phone">Phone:</label>
+          <input type="phone" class="input-fields" id="phone" name="phone" />&nbsp;&nbsp;<span
+            id="phone-error"
+            class="form-error"
+          ></span
+          ><br /><br />
+
+          <input class="button" type="submit" value="Submit" />
+        </form>
       </div>
     </section>
 

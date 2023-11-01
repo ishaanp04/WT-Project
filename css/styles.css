@@ -62,9 +62,8 @@ nav {
   display: block;
 }
 
-.dropdown-content a span {
+.dropdown-content a div {
   margin: auto;
-  text-align: center;
 }
 
 .dropdown-content a:hover {
@@ -97,8 +96,36 @@ nav {
   }
 }
 
-div.know-me {
+div.intro {
   width: 500px;
   margin: auto;
   font-size: 1.2em;
+}
+
+form .form-error {
+  font-size: 0.8em;
+  color: rgb(74, 2, 2);
+  margin-bottom: 10px;
+}
+
+form {
+  width: 30%;
+  margin: 50px auto;
+  font-size: 1.2em;
+}
+
+form .input-fields {
+  width: 80%;
+  height: 40px;
+  margin: 0 0 0 15px;
+}
+
+form .button {
+  display: block;
+  margin: auto;
+  width: 80px;
+  height: 35px;
+  background-color: white;
+  border: 1px solid #727272;
+  border-radius: 5px;
 }
