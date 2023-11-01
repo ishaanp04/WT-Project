@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  font-family: "Playfair Display", serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-heading {
+  font-size: 5em;
+  margin: 0px 10px;
+  color: #727272;
+  line-height: 75%;
+}
+
+.sub-heading {
+  font-size: 1.63em;
+  margin: 0px 10px;
+  color: #727272;
+}
+
+.nav-list {
+  font-size: 1.2em;
+  color: #727272;
+  list-style: none;
+  display: flex;
+  margin: 36.4px 10px 0 0;
+}
+
+.nav-list li {
+  margin: 0 10px;
+}
+.nav-list a {
+  color: #727272;
+}
+
+.dropbtn {
+  color:#727272;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #eeeeee;
+  border-radius: 5px;
+  min-width: 100%;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color:#727272;
+  text-decoration: none;
+  padding: 5px 0;
+  display: block;
+}
+
+.dropdown-content a span {
+  margin: auto;
+  text-align: center;
+}
+
+.dropdown-content a:hover {
+  background-color: #cfcfcf;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  
+}
+
+.second-section {
+}
+
+.main-image {
+  width: 500px;
+  display: block;
+  margin: 80px auto 40px;
+}
+
+@keyframes move-up {
+  from {
+    margin: 80px auto 40px;
+  }
+  to {
+    margin: 40px auto;
+  }
+}
+
+div.know-me {
+  width: 500px;
+  margin: auto;
+  font-size: 1.2em;
+}
