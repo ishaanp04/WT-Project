@@ -1,2 +1,2 @@
 # WT-Project
-!(/Untitled.png)
+!(Untitled.png)
