@@ -8,11 +8,6 @@ function knowMe() {
     '<img src="images/looking right.JPG" class="main-image" alt="" style=" position: relative; animation-name: move-up; animation-duration: 1.5s; animation-fill-mode: forwards;"/>';
 }
 
-// function contact() {
-//   document.getElementById("main-content").innerHTML =
-//     '<form name="contactForm" onsubmit="return validateForm()" method="post"><label for="name">Name:</label><input type="text" id="name" name="name" />&nbsp;&nbsp;<span id="name-error" class="form-error"></span><br /><br /><label for="email">Email:</label><input type="email" id="email" name="email" />&nbsp;&nbsp;<span id="email-error" class="form-error"></span><br /><br /><label for="Phone">Phone:</label><input type="phone" id="phone" name="phone" />&nbsp;&nbsp;<span id="phone-error" class="form-error"></span><br /><br /><input type="submit" value="Submit" /></form>';
-// }
-
 function setError(id, error) {
   document.getElementById(id).innerHTML = error;
 }

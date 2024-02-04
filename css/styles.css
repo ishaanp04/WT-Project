@@ -122,3 +122,21 @@ form .button {
   border: 1px solid #727272;
   border-radius: 5px;
 }
+
+section#rss-feed h2{
+  text-align: center;
+  margin: 40px 0 0 0;
+}
+
+#rss-feed #feed-list {
+  text-align: center;
+  list-style: none;
+}
+
+#rss-feed #feed-list a {
+  font-size: 1.1em;
+  color: black;
+}
+#rss-feed #feed-list a:hover {
+  color: #727272;
+}
